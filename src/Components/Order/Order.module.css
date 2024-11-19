@@ -1,0 +1,104 @@
+.doneIcon {
+  width: 80px;
+  height: 80px;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #243573;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.todayData {
+  color: #737373;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+  margin-top: 25px;
+}
+
+.infoBlock {
+  width: 465px;
+  height: 114px;
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
+  background: white;
+  color: black;
+  text-align: start;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+}
+
+.miniIcon {
+  margin-right: 5px;
+}
+
+.infoBlock p {
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  color: #243573;
+}
+
+.orderList {
+  width: 960px;
+  height: auto;
+  max-height: 538px;
+  margin-top: 2rem;
+  padding: 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+}
+
+.orders {
+  max-height: 330px;
+  overflow-y: auto;
+}
+
+.priceContainer {
+  margin-top: 2rem;
+}
+
+.priceContainer p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.priceContainer h2 {
+  font-size: 20px;
+}
+
+.stepBtn {
+  margin: 2rem 0;
+  width: 150px;
+  height: 36px;
+}
+
+.noUnderline {
+  text-decoration: none;
+}

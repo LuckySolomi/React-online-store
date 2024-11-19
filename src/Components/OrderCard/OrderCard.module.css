@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+  width: 900px;
+  height: 95px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.cardImg {
+  margin-right: 10px;
+}

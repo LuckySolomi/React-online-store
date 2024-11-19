@@ -1,0 +1,75 @@
+h1 {
+  font-weight: 400;
+  font-size: 32px;
+  color: #243573;
+}
+
+.contactForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  width: 960px;
+  height: 176px;
+  padding: 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 10px;
+  color: #243573;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  width: 300px;
+  margin-right: 2rem;
+  border: none;
+  border-bottom: 1px solid #737373;
+  padding: 8px;
+  color: #243573;
+  font-size: 15px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+  outline: none;
+  border-bottom: 1px solid #243573;
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  color: #243573;
+}
+
+.stepBtn {
+  width: 150px;
+  height: 36px;
+  margin-top: 2rem;
+}
+
+.noUnderline {
+  text-decoration: none;
+}
+
+.errorBorder {
+  border-bottom: 1px solid #ff5620 !important;
+}
+
+.errorMessage {
+  color: #ff5620;
+  font-weight: 400;
+  font-size: 10px;
+}

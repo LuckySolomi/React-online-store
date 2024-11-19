@@ -1,0 +1,38 @@
+.mainTitle {
+  font-weight: 400;
+  font-size: 32px;
+  color: #243573;
+}
+
+.cardsContainer {
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 2rem 0;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #243573;
+}
+
+.result {
+  font-weight: 700;
+  font-size: 20px;
+  color: #243573;
+}
+
+.stepBtn {
+  width: 150px;
+  height: 36px;
+}
+
+.noUnderline {
+  text-decoration: none;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

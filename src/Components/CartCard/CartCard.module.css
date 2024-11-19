@@ -1,0 +1,68 @@
+.CartCard {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  height: 146px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+  background: #ffffff;
+}
+
+.cardImg {
+  width: 130px;
+  height: 130px;
+}
+
+.cardTextContainer {
+  display: flex;
+}
+
+.cardText {
+  width: 700px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.deleteBtn {
+  width: 81px;
+  height: 36px;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.miniBtn {
+  width: 36px;
+  height: 36px;
+  font-size: 20px;
+}
+
+.disabledColor {
+  background: #187727;
+}
+
+.amount {
+  margin: 0 20px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0c0c0c;
+}
+
+.price {
+  margin-left: 10px;
+  font-size: 24px;
+}

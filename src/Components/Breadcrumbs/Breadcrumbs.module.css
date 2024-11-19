@@ -1,0 +1,23 @@
+.breadcrumbsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 420px;
+}
+
+.breadcrumbStep {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #243573;
+  cursor: pointer;
+}
+
+.separator {
+  margin: 0 8px;
+  color: #999;
+}
+
+.currentStepColor {
+  color: #00ae1c;
+}
