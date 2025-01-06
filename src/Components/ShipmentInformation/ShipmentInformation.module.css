@@ -81,3 +81,22 @@ input::placeholder {
   font-weight: 400;
   font-size: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 767px) {
+  .shipmentForm {
+    width: 360px;
+    height: 420px;
+    padding: 20px;
+  }
+
+  .countryInfoContainer {
+    flex-wrap: wrap;
+  }
+
+  .countryInfoContainer input {
+    width: 300px;
+  }
+}

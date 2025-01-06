@@ -44,3 +44,36 @@ h2 {
 .cardBtn img {
   margin-right: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 228px;
+    height: 385px;
+    margin: 10px;
+  }
+
+  .cardBtn {
+    width: 212px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    width: 160px;
+    height: 285px;
+    margin: 5px;
+  }
+
+  .cardImg {
+    width: 150px;
+    height: auto;
+  }
+
+  .cardBtn {
+    width: 146px;
+  }
+
+  .card p {
+    width: 140px;
+  }
+}

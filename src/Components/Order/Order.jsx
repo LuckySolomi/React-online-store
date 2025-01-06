@@ -42,7 +42,7 @@ function Order() {
       <div className={styles.textBlock}>
         <img src="./img/done.png" alt="done" className={styles.doneIcon} />
         <h1>Thank you for your order!</h1>
-        <p>
+        <p className={styles.textDetails}>
           The order confirmation email with details of your order and a link to
           track its progress has been sent to your email address.
         </p>

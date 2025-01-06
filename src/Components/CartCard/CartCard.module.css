@@ -66,3 +66,28 @@
   margin-left: 10px;
   font-size: 24px;
 }
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 767px) {
+  .CartCard {
+    width: 378px;
+    padding: 5px;
+    align-items: center;
+  }
+
+  .cardImg {
+    width: 97px;
+    height: 97px;
+  }
+
+  .cardText {
+    width: 160px;
+  }
+
+  .price {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+}

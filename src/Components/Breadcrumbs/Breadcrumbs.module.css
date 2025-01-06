@@ -21,3 +21,13 @@
 .currentStepColor {
   color: #00ae1c;
 }
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 767px) {
+  .breadcrumbsContainer {
+    width: 100%;
+    justify-content: center;
+  }
+}
