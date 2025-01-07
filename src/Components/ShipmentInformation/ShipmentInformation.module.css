@@ -83,13 +83,9 @@ input::placeholder {
 }
 
 @media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 767px) {
   .shipmentForm {
-    width: 360px;
-    height: 420px;
-    padding: 20px;
+    width: 740px;
+    height: auto;
   }
 
   .countryInfoContainer {
@@ -98,5 +94,13 @@ input::placeholder {
 
   .countryInfoContainer input {
     width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .shipmentForm {
+    width: 360px;
+    height: 420px;
+    padding: 20px;
   }
 }

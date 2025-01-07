@@ -107,11 +107,32 @@ p {
 }
 
 @media screen and (max-width: 1024px) {
+  .orderList {
+    max-width: 740px;
+  }
+
+  .infoContainer {
+    justify-content: start;
+  }
+
+  .textDetails {
+    text-align: center;
+  }
+
+  .infoBlock {
+    max-width: 357px;
+    height: auto;
+    margin-right: 25px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .textBlock {
     width: 100%;
+  }
+
+  h1 {
+    text-align: center;
   }
 
   .textDetails {
@@ -120,7 +141,8 @@ p {
 
   .infoContainer {
     width: 100%;
-    display: block;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .orderList {
@@ -130,6 +152,7 @@ p {
   .infoBlock {
     margin-top: 15px;
     width: 100%;
+    max-width: 390px;
     height: 150px;
   }
 }

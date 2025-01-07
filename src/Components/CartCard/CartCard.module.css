@@ -68,6 +68,13 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .CartCard {
+    width: 740px;
+  }
+
+  .cardText {
+    width: 500px;
+  }
 }
 
 @media screen and (max-width: 767px) {
